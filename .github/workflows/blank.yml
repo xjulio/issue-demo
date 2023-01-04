@@ -12,4 +12,4 @@ jobs:
           echo BW used = $BW
         env:
           NUMBER: ${{ github.event.issue.number }}
-          BW: ${{ github.event.issue.browsers }}
+          BW: ${{ github.event.issue.body }}
